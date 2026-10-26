@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science - CuriousMind</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eef6ff;
+            color: #183153;
+            text-align: center;
+        }
+
+        header {
+            background: #102a43;
+            color: white;
+            padding: 25px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 35px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        .card p {
+            color: #475569;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #0879d9;
+            color: white;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #075aa3;
+        }
+
+        a {
+            display: inline-block;
+            margin: 20px;
+            color: #0879d9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🔬 Discover Science</h1>
+        <p>Explore the amazing world around you!</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>🌌 Space</h2>
+            <p>Discover planets, stars and black holes.</p>
+            <button onclick="location.href='space.html'">
+                Learn About Space
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>🫀 Human Body</h2>
+            <p>Learn how your heart, brain and lungs work.</p>
+            <button onclick="location.href='humanbody.html'">
+                Explore the Body
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>🧪 Chemistry</h2>
+            <p>Discover atoms, elements and chemical reactions.</p>
+            <button onclick="location.href='chemistry.html'">
+                Explore Chemistry
+            </button>
+        </div>
+
+    </div>
+
+    <a href="topics.html">← Back to Topics</a>
+
+</body>
+</html>

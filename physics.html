@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics - CuriousMind</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff8e8;
+            color: #553b12;
+            text-align: center;
+        }
+
+        header {
+            background: #854d0e;
+            color: white;
+            padding: 25px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 35px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            width: 250px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        .card p {
+            color: #6b5b43;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #b7791f;
+            color: white;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #925d13;
+        }
+
+        a {
+            display: inline-block;
+            margin: 20px;
+            color: #925d13;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>⚡ Discover Physics</h1>
+        <p>Understand the laws that shape our universe!</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>💡 Light</h2>
+            <p>Discover reflection, refraction and why the sky is blue.</p>
+            <button onclick="location.href='light.html'">
+                Explore Light
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>🔌 Electricity</h2>
+            <p>Learn about electric current, circuits and voltage.</p>
+            <button onclick="location.href='electricity.html'">
+                Explore Electricity
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>🧲 Force & Motion</h2>
+            <p>Understand gravity, friction, force and movement.</p>
+            <button onclick="location.href='force.html'">
+                Explore Force
+            </button>
+        </div>
+
+    </div>
+
+    <a href="topics.html">← Back to Topics</a>
+
+</body>
+</html>
